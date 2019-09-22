@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-var prefix = "!";
+var prefix = "-";
 client.on("message", message => {
 
             if (message.content.startsWith(prefix + "bc")) {
@@ -18,15 +18,15 @@ client.on("message", message => {
 
 client.on('ready', () => {
    console.log(`----------------`);
-      console.log(`Desert Bot- Script By : i1Suhaib`);
+      console.log(`Desert Bot- Script By : Kind`);
         console.log(`----------------`);
-      console.log(`ON ${client.guilds.size} Servers '     Script By : i1Suhaib ' `);
+      console.log(`ON ${client.guilds.size} Servers '     Script By : Kind ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(` Pick BC `,"http://twitch.tv/S-F")
+client.user.setGame(` Arab World | عالم العرب `,"http://twitch.tv/kind")
 client.user.setStatus("dnd")
 });
 
 
 
-client.login("NjEzNDEzODE4OTU3MDM3NTY4.XVwkrg.b9mhbAAMTDd9Bt9TPpscNu7KSII");
+client.login("توكن");
